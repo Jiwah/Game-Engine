@@ -1,0 +1,1148 @@
+Unity Editor version:    2021.3.1f1 (3b70a0754835)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.5.1 (Build 20G80)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/jihyeon/Documents/GitHub/Game-Engine/Gamedesign_Diver
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58108
+Successfully changed project path to: /Users/jihyeon/Documents/GitHub/Game-Engine/Gamedesign_Diver
+/Users/jihyeon/Documents/GitHub/Game-Engine/Gamedesign_Diver
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 144.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jihyeon/Documents/GitHub/Game-Engine/Gamedesign_Diver/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56769
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002170 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 131.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.734 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1736ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1223ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (864ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (526ms)
+				ProcessInitializeOnLoadMethodAttributes (181ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010637 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jihyeon/Documents/GitHub/Game-Engine/Gamedesign_Diver/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/jihyeon/Documents/GitHub/Game-Engine/Gamedesign_Diver/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 129.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.357 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3359ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (2749ms)
+			LoadAssemblies (359ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1660ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (187ms)
+				ProcessInitializeOnLoadAttributes (1033ms)
+				ProcessInitializeOnLoadMethodAttributes (295ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (2.0 MB). Loaded Objects now: 5543.
+Memory consumption went from 332.3 MB to 330.3 MB.
+Total: 4.425458 ms (FindLiveObjects: 0.391708 ms CreateObjectMapping: 0.141083 ms MarkObjects: 2.929917 ms  DeleteObjects: 0.961417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 174876.475278 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Atlantic Cod.fbx
+  artifactKey: Guid(dc0bb41f9095cdf42a5f9669e31fa737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Atlantic Cod.fbx using Guid(dc0bb41f9095cdf42a5f9669e31fa737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8927ab7dd3cfa88d821ad7e9b31343') in 1.082744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/CaptainBed_Green.fbx
+  artifactKey: Guid(c033591e3798867498d4136e8395087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/CaptainBed_Green.fbx using Guid(c033591e3798867498d4136e8395087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1a0a876c830cb913f96d258d7b9609') in 0.018677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Textures/Foam Noise.png
+  artifactKey: Guid(f1770170984e32443ac9e759452eee76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Textures/Foam Noise.png using Guid(f1770170984e32443ac9e759452eee76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed19d75566b1949fd68f7f1de7a8b87') in 0.578882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Ventuar/UnderwaterPack/Scenes/Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(67ccf699a3dd0ed48bd3aaee4ba612cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/Scenes/Demo/ReflectionProbe-0.exr using Guid(67ccf699a3dd0ed48bd3aaee4ba612cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5e18b27be9f2ae3320a2e5262003bc') in 0.624608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/CaptainBed_Blue.fbx
+  artifactKey: Guid(fd448231cfbca7e4f9c7c771d6ce650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/CaptainBed_Blue.fbx using Guid(fd448231cfbca7e4f9c7c771d6ce650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb69936be054701cc1fef9b4e1e7cc02') in 0.014094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Ventuar/UnderwaterPack/Prefabs/Spawner.prefab
+  artifactKey: Guid(005129baa6788234290329570977cb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/Prefabs/Spawner.prefab using Guid(005129baa6788234290329570977cb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56f9baf15ebbfdb14e54875f1ead539') in 0.194084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Barrel.fbx
+  artifactKey: Guid(ca1091578bf2b77409503414c116f62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Barrel.fbx using Guid(ca1091578bf2b77409503414c116f62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7459938ca5dafb6ba17da9ee176d71') in 0.014377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Bottlenose Dolphin.fbx
+  artifactKey: Guid(8a98c7e7eabdade45bb07e85a8c8d1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Bottlenose Dolphin.fbx using Guid(8a98c7e7eabdade45bb07e85a8c8d1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6234019159d8e5ddec2aeec321d198a') in 0.018251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Bottle02.fbx
+  artifactKey: Guid(95d61fe31fa1c0543be6fca2e94421dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Bottle02.fbx using Guid(95d61fe31fa1c0543be6fca2e94421dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2782961fb303ca793730ce71c24757be') in 0.013461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Ventuar/UnderwaterPack/Scenes/Demo/OcclusionCullingData.asset
+  artifactKey: Guid(85b38af65aa3b4a40a142dd0725635a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/Scenes/Demo/OcclusionCullingData.asset using Guid(85b38af65aa3b4a40a142dd0725635a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea0877d734a61a8cf1ae86e8eb65c5a') in 0.116933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Cliff01.fbx
+  artifactKey: Guid(663d79d0a830bb444b60a4e2b9daf96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Cliff01.fbx using Guid(663d79d0a830bb444b60a4e2b9daf96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6905103dc73d86d50a8935c95b85f4') in 0.015286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book01_Open.fbx
+  artifactKey: Guid(6bcdc1827d7feaa47af63fb03c724d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book01_Open.fbx using Guid(6bcdc1827d7feaa47af63fb03c724d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0259451b4832833853832b338871c2') in 0.015385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Textures/Foam Distortion Flow Map.png
+  artifactKey: Guid(7296f9b8d96e0d74b846587a5829ffd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Textures/Foam Distortion Flow Map.png using Guid(7296f9b8d96e0d74b846587a5829ffd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8146d514f84dbd817f7609a78cf3b9f0') in 0.010132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book04_Open.fbx
+  artifactKey: Guid(b3e844b18de9546439d4ce3176aa8465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book04_Open.fbx using Guid(b3e844b18de9546439d4ce3176aa8465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1925022b293662204ea9048e56599b39') in 0.013005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Textures/Caustics.png
+  artifactKey: Guid(41de442cd017d4e4da8d348d81a8c97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Textures/Caustics.png using Guid(41de442cd017d4e4da8d348d81a8c97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cd7d3b3e2b9a91a363201fc139710a') in 0.012724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book05_Closed.fbx
+  artifactKey: Guid(43d0c732a9da0bb4fa363663995342f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book05_Closed.fbx using Guid(43d0c732a9da0bb4fa363663995342f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c587f90acdbb0ea861fb2be395fdcee') in 0.016338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book03_Open.fbx
+  artifactKey: Guid(00b83cf1643329148aad23b96bf5ddec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book03_Open.fbx using Guid(00b83cf1643329148aad23b96bf5ddec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e25f529f68b4f9ca4d175c366f85c8f') in 0.048814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/PostProcessing/Surface.asset
+  artifactKey: Guid(7ba2b06fb32e5274aad88925a5b8d3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/PostProcessing/Surface.asset using Guid(7ba2b06fb32e5274aad88925a5b8d3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c1f0035479a62b04e14f268b2b811c') in 0.065075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Textures/UnderwaterPackAtlas.png
+  artifactKey: Guid(39b538beda5530b4fbdb387643120c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Textures/UnderwaterPackAtlas.png using Guid(39b538beda5530b4fbdb387643120c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02aa1c9ac5993da8daa1572b1638e394') in 0.013239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/CannonballMound.fbx
+  artifactKey: Guid(2b68f74152f4f21408bcfac400f64fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/CannonballMound.fbx using Guid(2b68f74152f4f21408bcfac400f64fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cd6b7c9ccef465fec9cc20877416f2') in 0.014931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/CircleRug_Red.fbx
+  artifactKey: Guid(1d2e7bb518d831a4d96f6fa2fa316a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/CircleRug_Red.fbx using Guid(1d2e7bb518d831a4d96f6fa2fa316a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b7b352d8f3f66dbdda93c0cc06c78f') in 0.018212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Catfish.fbx
+  artifactKey: Guid(a14b1c73f65989046825def28ce10cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Catfish.fbx using Guid(a14b1c73f65989046825def28ce10cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849256bbbc034ee32be4801eed988d91') in 0.015636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/CircleRug_White.fbx
+  artifactKey: Guid(cd7d9969ac15d004e92e9039df924530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/CircleRug_White.fbx using Guid(cd7d9969ac15d004e92e9039df924530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c4bd2b220efd98f013465d099cffd1') in 0.012715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Achilles Tang.fbx
+  artifactKey: Guid(c1c8801f547b7b8488360b77599c8b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Achilles Tang.fbx using Guid(c1c8801f547b7b8488360b77599c8b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af7fb766674f14342d5eeff0acf146d') in 0.014026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book02_Open.fbx
+  artifactKey: Guid(28e8ed9be002b2e4b8b6c73ad02b0b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book02_Open.fbx using Guid(28e8ed9be002b2e4b8b6c73ad02b0b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5b861483c7e25a94c3b865f2b2b8ce') in 0.013560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Cannonball.fbx
+  artifactKey: Guid(9b96ba8e8ca6d26408d9c0f015c897cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Cannonball.fbx using Guid(9b96ba8e8ca6d26408d9c0f015c897cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a51368227aff42e6a289d1b1098cf68') in 0.016871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Chair.fbx
+  artifactKey: Guid(8bd2bf319a46bdb44bace367221431c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Chair.fbx using Guid(8bd2bf319a46bdb44bace367221431c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be6578df64058b5a574edef270a5bdc') in 0.013275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ventuar/UnderwaterPack/Scenes/Demo/LightingData.asset
+  artifactKey: Guid(5a716dd18f0f1724ab8a527197ba54e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/Scenes/Demo/LightingData.asset using Guid(5a716dd18f0f1724ab8a527197ba54e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2289fa8604cd9c40f5544ce18314600d') in 0.002480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/CaptainBed_White.fbx
+  artifactKey: Guid(8ccecd274565cdf45bbd19e0bf48eaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/CaptainBed_White.fbx using Guid(8ccecd274565cdf45bbd19e0bf48eaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c30a10d5ab350bef18d761da58fc89') in 0.015403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book05_Open.fbx
+  artifactKey: Guid(28b6ee434b00ef7438d1f9bed41369f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book05_Open.fbx using Guid(28b6ee434b00ef7438d1f9bed41369f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839916002e6713209902bf564d56ebfa') in 0.013301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book03_Closed.fbx
+  artifactKey: Guid(76bb6ecada5e137458e82313ab8ba520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book03_Closed.fbx using Guid(76bb6ecada5e137458e82313ab8ba520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68d0e34d284929ac411996438f5a230') in 0.012922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Bottle01.fbx
+  artifactKey: Guid(45dcd2dd5a8357f4da73d9033b95324c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Bottle01.fbx using Guid(45dcd2dd5a8357f4da73d9033b95324c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e498eac237d60ecb16573fdbfd160f28') in 0.014028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book04_Closed.fbx
+  artifactKey: Guid(6cd4bfc201670e740b3a66dbfcb8d490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book04_Closed.fbx using Guid(6cd4bfc201670e740b3a66dbfcb8d490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a79b2a996920e18b7c34565b16d112f') in 0.013279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Textures/Bubble.png
+  artifactKey: Guid(1a369b27a492a81498265e9effea014b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Textures/Bubble.png using Guid(1a369b27a492a81498265e9effea014b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c08bc9740c889b131c24a8c632707f') in 0.073021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Cannon.fbx
+  artifactKey: Guid(24ab9914ac3d79e46b61e11d479b5f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Cannon.fbx using Guid(24ab9914ac3d79e46b61e11d479b5f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a705ed940b6fc94317b6999eff798e8') in 0.014488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book02_Closed.fbx
+  artifactKey: Guid(3b919ad61ffb5e04d91db44c5f09adfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book02_Closed.fbx using Guid(3b919ad61ffb5e04d91db44c5f09adfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e385741e30a7bfbd17c79fa69561f4') in 0.019703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/CaptainBed_Red.fbx
+  artifactKey: Guid(df89110b09244564abbbb30c8dd3ed40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/CaptainBed_Red.fbx using Guid(df89110b09244564abbbb30c8dd3ed40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74471b04ea3808ac3968345d976f3f2') in 0.014896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Ventuar/UnderwaterPack/Prefabs/Main Camera.prefab
+  artifactKey: Guid(d8c89a59ad08971479f4e76a8678caea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/Prefabs/Main Camera.prefab using Guid(d8c89a59ad08971479f4e76a8678caea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc27631d570552d1feb416ccbd3da25') in 0.171093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Shaders/WaterCompute.compute
+  artifactKey: Guid(5ea353b06e521cb4a80158b815ed72f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Shaders/WaterCompute.compute using Guid(5ea353b06e521cb4a80158b815ed72f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0871f025619899381445216fa5cfa555') in 0.099189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Ventuar/UnderwaterPack/LPUP_Tags&Layers.preset
+  artifactKey: Guid(9325640a34edc11439775b5f6f03a83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/LPUP_Tags&Layers.preset using Guid(9325640a34edc11439775b5f6f03a83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c8281eaa124270d44bc893f8dc664b') in 0.082755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Blue Tang.fbx
+  artifactKey: Guid(f7f2ac4ffde02cd4a9080f21e6f51c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Blue Tang.fbx using Guid(f7f2ac4ffde02cd4a9080f21e6f51c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f352df2230754d153f7cadadfbdabbf') in 0.014693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book01_Closed.fbx
+  artifactKey: Guid(fa9ccf1160496064ab1a68e7388c5094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Book01_Closed.fbx using Guid(fa9ccf1160496064ab1a68e7388c5094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99758256c4b7a8671764ab55c3dfcce9') in 0.015637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/CircleRug_Blue.fbx
+  artifactKey: Guid(c152e6a77af7a1242b8938c49971ebcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/CircleRug_Blue.fbx using Guid(c152e6a77af7a1242b8938c49971ebcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bf1c85c309cf740ff4fc7706b21a42') in 0.013995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/PostProcessing/Underwater.asset
+  artifactKey: Guid(59b3e0c9849f5de4aa4ff677d169950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/PostProcessing/Underwater.asset using Guid(59b3e0c9849f5de4aa4ff677d169950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b0974785066ecad36ab5e61d86ee54') in 0.003033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Scripts/LowPolyUnderwaterPack.asmdef
+  artifactKey: Guid(270c6117935c0a743a9ce43d7ad49e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Scripts/LowPolyUnderwaterPack.asmdef using Guid(270c6117935c0a743a9ce43d7ad49e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7250db90373c50db6d6d1dc269d6758') in 0.096805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/CircleRug_Green.fbx
+  artifactKey: Guid(db89dd1989a7934458eaf1651d8e7120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/CircleRug_Green.fbx using Guid(db89dd1989a7934458eaf1651d8e7120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec9b7b3e7f5aa930f7ca49665b10d05') in 0.014368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Anchor.fbx
+  artifactKey: Guid(199c51d8f63583f449a650a912b3006a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Anchor.fbx using Guid(199c51d8f63583f449a650a912b3006a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95883c760cf0439e240f4d7caf5ad697') in 0.014102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/BoidTestRoom.fbx
+  artifactKey: Guid(1e37a140cb3ad9244b08b73f1c28fa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/BoidTestRoom.fbx using Guid(1e37a140cb3ad9244b08b73f1c28fa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6774a3ef7e00b4b4383372c2409e2a48') in 0.072480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.157218 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Cliff02.fbx
+  artifactKey: Guid(9ffd30b0fd9dea14399fd85b341bb3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Cliff02.fbx using Guid(9ffd30b0fd9dea14399fd85b341bb3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ceee363644282ee6ea771799b3b4e45') in 0.017405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral07.fbx
+  artifactKey: Guid(c1ec3c296c7e84146970df340ea7ad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral07.fbx using Guid(c1ec3c296c7e84146970df340ea7ad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612627d9535e96e99aa23271243c16de') in 0.013761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral06.fbx
+  artifactKey: Guid(dc080c3ea4133b242ba20e7dc987ba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral06.fbx using Guid(dc080c3ea4133b242ba20e7dc987ba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118b8079284b2f95b459e4af60bdeeb5') in 0.018517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral10.fbx
+  artifactKey: Guid(52ffef3a63e60994e9e3901fdbecb72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral10.fbx using Guid(52ffef3a63e60994e9e3901fdbecb72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892ee27492f57b5f005175b05fec3693') in 0.014349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral03.fbx
+  artifactKey: Guid(d6c4ee7709abeb44f925bf35400154ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral03.fbx using Guid(d6c4ee7709abeb44f925bf35400154ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe327fbd0c843c3b1475183757d055f') in 0.013523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral12.fbx
+  artifactKey: Guid(0761c1757a780ca409400dc1844956ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral12.fbx using Guid(0761c1757a780ca409400dc1844956ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affd68824bb85c38de17a0ce7480b5ac') in 0.012669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral15.fbx
+  artifactKey: Guid(c63425a835dfd42449ce875c10c8cdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral15.fbx using Guid(c63425a835dfd42449ce875c10c8cdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5092a9ab07564b598d37c43403b7efbf') in 0.014072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral13.fbx
+  artifactKey: Guid(0003431e24e75b941849614e80c72a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral13.fbx using Guid(0003431e24e75b941849614e80c72a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fb4996e883a52d4bb786d6ada03f85') in 0.017346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Cliff04.fbx
+  artifactKey: Guid(64c6bfecd3f17ac44b8e743cfd8132a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Cliff04.fbx using Guid(64c6bfecd3f17ac44b8e743cfd8132a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82969c42bd2ee8876510aba43e22bca') in 0.015129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral16.fbx
+  artifactKey: Guid(2de1b57316a4ee740b7652fbff2060fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral16.fbx using Guid(2de1b57316a4ee740b7652fbff2060fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2486af69379b2e51135b372f26fd66b') in 0.013579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral05.fbx
+  artifactKey: Guid(59a3f441a23d4c547a8920f0a957758b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral05.fbx using Guid(59a3f441a23d4c547a8920f0a957758b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6907099d3dd2c59f0228f4311c0107b') in 0.016911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral09.fbx
+  artifactKey: Guid(774519c930bedc3469a4d95fef494173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral09.fbx using Guid(774519c930bedc3469a4d95fef494173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b6ec947a4b9678f763f3faded6d105') in 0.013894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Crate02.fbx
+  artifactKey: Guid(0491dcbd1c203814f8ed9b53e5c3dce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Crate02.fbx using Guid(0491dcbd1c203814f8ed9b53e5c3dce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69e0e512ca9be0d2823439846b0c9cb') in 0.032002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral08.fbx
+  artifactKey: Guid(d9636c06b6a2ca245bba47371d3d8a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral08.fbx using Guid(d9636c06b6a2ca245bba47371d3d8a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f194dff06ca0c778e783f7fc586840a1') in 0.014129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral14.fbx
+  artifactKey: Guid(93dd6c465386eb64996b7e1cc7092402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral14.fbx using Guid(93dd6c465386eb64996b7e1cc7092402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3a0fdc6dafdb53878440dc86333845') in 0.013055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral01.fbx
+  artifactKey: Guid(96a1b599b036fbb4488426004e94a548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral01.fbx using Guid(96a1b599b036fbb4488426004e94a548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cbb164ab1077f4192213366f1b1e04') in 0.015297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Cliff03.fbx
+  artifactKey: Guid(55a9bbd39f033214cbe741043175cd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Cliff03.fbx using Guid(55a9bbd39f033214cbe741043175cd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea75ea1619d5ced0cfbc2fde1367b2a') in 0.017260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral11.fbx
+  artifactKey: Guid(94b52f351b4a3ea4c95303e845eca40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral11.fbx using Guid(94b52f351b4a3ea4c95303e845eca40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114ff06d72b49bd1be9048431e3ce984') in 0.015899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral04.fbx
+  artifactKey: Guid(300c32558c7d1c34cbd9ffe44da2a5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral04.fbx using Guid(300c32558c7d1c34cbd9ffe44da2a5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c04aa9fec8c096cb90009adb4a086f') in 0.013752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Compass.fbx
+  artifactKey: Guid(61af095baad8c3b4692e6640e3bd5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Compass.fbx using Guid(61af095baad8c3b4692e6640e3bd5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9343625c7302e6f4dcd94de3f9a01a58') in 0.044465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Clownfish.fbx
+  artifactKey: Guid(035824f93020c5b44bbffeba82f6f0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Clownfish.fbx using Guid(035824f93020c5b44bbffeba82f6f0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45cbbfe78467d995afba0415d32b530') in 0.013265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral02.fbx
+  artifactKey: Guid(c91d205de7db2ea43836965975dd9485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Coral02.fbx using Guid(c91d205de7db2ea43836965975dd9485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1290243ba814e30a5ffbcf590ee54120') in 0.013207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Common Carp.fbx
+  artifactKey: Guid(794ace28fad93ef4dadcce33a101804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Common Carp.fbx using Guid(794ace28fad93ef4dadcce33a101804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835510ee94171391734841c93bd6ce42') in 0.013710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Crate01.fbx
+  artifactKey: Guid(77730bcbb3e8e8241a92b1fc0ebbfe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Crate01.fbx using Guid(77730bcbb3e8e8241a92b1fc0ebbfe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb65194936ba5fb7236457f14a27a84') in 0.014124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079769 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Desk.fbx
+  artifactKey: Guid(74a9aaa10c665e34dbea26da4d97fe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Desk.fbx using Guid(74a9aaa10c665e34dbea26da4d97fe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89a0615c84eec4de7b58389ff9fe54b') in 0.015416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Grass01.fbx
+  artifactKey: Guid(00cff939dcbca2642b9d2ea82997674e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Grass01.fbx using Guid(00cff939dcbca2642b9d2ea82997674e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0eef1d395a7eeeb7bb28579043be0b9') in 0.014020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/DoubleBed_White.fbx
+  artifactKey: Guid(bb00523400cb5cc4cbc02f45cc47cb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/DoubleBed_White.fbx using Guid(bb00523400cb5cc4cbc02f45cc47cb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d99e1b2a1cf5087823233de5f30e08b') in 0.019315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Flowerhorn.fbx
+  artifactKey: Guid(2093aaeac9823e647a9bbc71632b4556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Flowerhorn.fbx using Guid(2093aaeac9823e647a9bbc71632b4556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905eeaefe45f680b9bf98314417c21d7') in 0.014276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Inkwell.fbx
+  artifactKey: Guid(ee0fb29359798064596f82d05159b2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Inkwell.fbx using Guid(ee0fb29359798064596f82d05159b2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5681457603c66f754c2a7893d0e911') in 0.027345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Kelp01.fbx
+  artifactKey: Guid(82953acdbcecf994e82a9c61cc93951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Kelp01.fbx using Guid(82953acdbcecf994e82a9c61cc93951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedb834fb9020c5ca4a5fe0f8b97ddfa') in 0.018618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain04.fbx
+  artifactKey: Guid(133538099416322489f5f2912abc155a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain04.fbx using Guid(133538099416322489f5f2912abc155a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0ca8c06e978c91835e3d04f7f560d3') in 0.014141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Koi.fbx
+  artifactKey: Guid(aaef680ea36e7f24f80a8172382f7563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Koi.fbx using Guid(aaef680ea36e7f24f80a8172382f7563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd493a7ba8aa3b61e8a006503ec3b73e6') in 0.017516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Grass02.fbx
+  artifactKey: Guid(7c6850d6c37274a439ade9e0151060ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Grass02.fbx using Guid(7c6850d6c37274a439ade9e0151060ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af0069265f22e2a196e017bd3c3163b') in 0.013280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Hammerhead Shark.fbx
+  artifactKey: Guid(55ef8bd736dc19a4da0130fd45316630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Hammerhead Shark.fbx using Guid(55ef8bd736dc19a4da0130fd45316630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f87b77ac4e1494411ce8453bd56f16e') in 0.012688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Lantern.fbx
+  artifactKey: Guid(cdcfbfec669a45047be79dc96bfdd7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Lantern.fbx using Guid(cdcfbfec669a45047be79dc96bfdd7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582c68c8891bee624f1f2819ad2bb8b0') in 0.018226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Kelp02.fbx
+  artifactKey: Guid(1eb53502a1d0f2a41aa23b8c0dff7c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Kelp02.fbx using Guid(1eb53502a1d0f2a41aa23b8c0dff7c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45169303a4f04a331654ed1c424f168') in 0.014618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeGround02.fbx
+  artifactKey: Guid(057dc1095b45afc49a37e9da644fa8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeGround02.fbx using Guid(057dc1095b45afc49a37e9da644fa8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ef18290cc6e6b18288775c10691d93') in 0.027302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain02.fbx
+  artifactKey: Guid(6123d58312fb83f4798d6b2aa1fe2fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain02.fbx using Guid(6123d58312fb83f4798d6b2aa1fe2fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa0c3b3c9f0899bd3d33cf6b01eeccf') in 0.012999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Herring.fbx
+  artifactKey: Guid(3891b02c90c97844991e6e689bef1d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Herring.fbx using Guid(3891b02c90c97844991e6e689bef1d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4b3d557339aa77460f26947e511fc5') in 0.012419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Kelp03.fbx
+  artifactKey: Guid(e79760bba206b2f4da3230ba1887187b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Kelp03.fbx using Guid(e79760bba206b2f4da3230ba1887187b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a223532f2eb1323a00146e4a10c935b8') in 0.013625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain08.fbx
+  artifactKey: Guid(49aec83cf3c2dc14d88053633385f981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain08.fbx using Guid(49aec83cf3c2dc14d88053633385f981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b54f2718132c6bd141612dc3917e2ca') in 0.014353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain05.fbx
+  artifactKey: Guid(887c7b4281861494aa7db6fff9f92985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain05.fbx using Guid(887c7b4281861494aa7db6fff9f92985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d220fda6e0dad9d3a812a359e84e447') in 0.021077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Moorish Idol.fbx
+  artifactKey: Guid(e4a49f9c58d716e449ec20330e6b6104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Moorish Idol.fbx using Guid(e4a49f9c58d716e449ec20330e6b6104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4a7dd526ae4e029e3d17d89b3726dc') in 0.015499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Map.fbx
+  artifactKey: Guid(d8b748e6729b7224782d2d10c32ab57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Map.fbx using Guid(d8b748e6729b7224782d2d10c32ab57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742ce6487f4b38b415f6c24591721aaa') in 0.013900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain01.fbx
+  artifactKey: Guid(713b6e50062b81649bc9a1cda3d52eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain01.fbx using Guid(713b6e50062b81649bc9a1cda3d52eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d6cfa74e71263cb5bfdf1a40bce4cc') in 0.014514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain06.fbx
+  artifactKey: Guid(dba13fc5ad7735646969be728efbda6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain06.fbx using Guid(dba13fc5ad7735646969be728efbda6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca3eecdb06a09e8d1347d62be01f345') in 0.014676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeGround01.fbx
+  artifactKey: Guid(d89ac8d953f563645bbec53f642b6a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeGround01.fbx using Guid(d89ac8d953f563645bbec53f642b6a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d67a722d6456c041617d445b0daede3') in 0.024297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain07.fbx
+  artifactKey: Guid(4cf038aac56643846a34ede3585dadc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain07.fbx using Guid(4cf038aac56643846a34ede3585dadc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3969cac5a62b116d347849082afac95') in 0.015035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/DoubleBed_Green.fbx
+  artifactKey: Guid(ff6a004e9932a694b84778bb889fce4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/DoubleBed_Green.fbx using Guid(ff6a004e9932a694b84778bb889fce4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990eeb3a968947309b4725c0a01ffc96') in 0.017677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/DoubleBed_Blue.fbx
+  artifactKey: Guid(b05d35f297d251d40bd06ffb332c8911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/DoubleBed_Blue.fbx using Guid(b05d35f297d251d40bd06ffb332c8911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967146a5900b5be45af33f3e99829e9a') in 0.014104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Orca.fbx
+  artifactKey: Guid(87794076a9f933a46ae5ea1cc7797202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Orca.fbx using Guid(87794076a9f933a46ae5ea1cc7797202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c559aa69ea9303a10c369cf3202c130') in 0.013097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Great White Shark.fbx
+  artifactKey: Guid(ace41c56a82e6174d979f28d17c561c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Great White Shark.fbx using Guid(ace41c56a82e6174d979f28d17c561c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d96070d2e18a904e33f96c7ac95190') in 0.016317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/GrassTuft.fbx
+  artifactKey: Guid(ed0da4b613c1b8d42bac86663edf4254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/GrassTuft.fbx using Guid(ed0da4b613c1b8d42bac86663edf4254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae15195f916a78f6f38857876ab80be8') in 0.013348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/DoubleBed_Red.fbx
+  artifactKey: Guid(d35d7ba042b382f4db9783bd4b4c643c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/DoubleBed_Red.fbx using Guid(d35d7ba042b382f4db9783bd4b4c643c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43ac048598b12c8f9b36bcad89bb5ed') in 0.013425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Dresser.fbx
+  artifactKey: Guid(af57ed2c9dd2bbd49a9f6e0deb2a75a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Dresser.fbx using Guid(af57ed2c9dd2bbd49a9f6e0deb2a75a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3e8fdcfecbaa3bbc16843d73af169f') in 0.014304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain03.fbx
+  artifactKey: Guid(dfae1ddc6f13bb04a9a90833b7b81315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/LargeTerrain03.fbx using Guid(dfae1ddc6f13bb04a9a90833b7b81315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5623172ec13571063208b3f31c6358bb') in 0.014011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083763 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Piranha.fbx
+  artifactKey: Guid(cc78288ac5d93cc46948464673c74be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Piranha.fbx using Guid(cc78288ac5d93cc46948464673c74be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641845603be37584231eff172ef20a2f') in 0.014953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock08.fbx
+  artifactKey: Guid(12885f51ae9fe51468f208ef88041572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock08.fbx using Guid(12885f51ae9fe51468f208ef88041572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58072672ea3c8abdee821862a133946') in 0.012861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Ship_Collision.fbx
+  artifactKey: Guid(a71effef88d1b7242a059d2cb05482d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Ship_Collision.fbx using Guid(a71effef88d1b7242a059d2cb05482d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974e9b66c17b17943ca0ddd3e5c71683') in 0.234091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock09.fbx
+  artifactKey: Guid(2c0fdc96abc85514a8886ceabc149053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock09.fbx using Guid(2c0fdc96abc85514a8886ceabc149053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7241c6d24f1bd7d3a2eff59c6ed6dfc9') in 0.014145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock04.fbx
+  artifactKey: Guid(189e326dacd22a34f9a3addcaf9c588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock04.fbx using Guid(189e326dacd22a34f9a3addcaf9c588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb87fcdff02482aa62548568e3f1b0e') in 0.016588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock14.fbx
+  artifactKey: Guid(46b6088e23ff2154caad80412b6f2499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock14.fbx using Guid(46b6088e23ff2154caad80412b6f2499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09e0804449201ef3a68be90b0048b16') in 0.013517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock15.fbx
+  artifactKey: Guid(644ed1e6831fb0642863b1ecaf6f1160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock15.fbx using Guid(644ed1e6831fb0642863b1ecaf6f1160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b819c5856fb6d634bea4c727a7920879') in 0.015195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock13.fbx
+  artifactKey: Guid(b10d0ad562f815d43bc1f5c80f621a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock13.fbx using Guid(b10d0ad562f815d43bc1f5c80f621a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfef081513b2dcfee705c9071f29fee5') in 0.013438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock05.fbx
+  artifactKey: Guid(f2870f9982b06534fa79e22aefec7c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock05.fbx using Guid(f2870f9982b06534fa79e22aefec7c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7123f315b9a8cf118d5c0240a890951') in 0.012779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock01.fbx
+  artifactKey: Guid(e18125dc9f5d8984986b71e532d923c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock01.fbx using Guid(e18125dc9f5d8984986b71e532d923c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4362f36104574360ddc95e7229921e6') in 0.013522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Salmon.fbx
+  artifactKey: Guid(31ad398027f94bc44ae299b4e0bfa9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Salmon.fbx using Guid(31ad398027f94bc44ae299b4e0bfa9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658efb318b36d4bea07fa96f97dfa2a1') in 0.012611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Sack.fbx
+  artifactKey: Guid(c7525585491b5454fb2ebbaf8bfb3f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Sack.fbx using Guid(c7525585491b5454fb2ebbaf8bfb3f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8043c62f2e229975f6c6e649c8a99ec') in 0.015703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock10.fbx
+  artifactKey: Guid(75a265cb2b3326749a4fa97d63361767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock10.fbx using Guid(75a265cb2b3326749a4fa97d63361767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd635f6292619ed514279ef4d083800c') in 0.013344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock03.fbx
+  artifactKey: Guid(c23c49f10159fc044b1bb25ee237961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock03.fbx using Guid(c23c49f10159fc044b1bb25ee237961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3eb63aab5f193b782d4a729e51f636') in 0.013089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Sea Turtle.fbx
+  artifactKey: Guid(03aa2c9b9728acb41b38cfd42ce3d1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Sea Turtle.fbx using Guid(03aa2c9b9728acb41b38cfd42ce3d1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdb1674aefa5be2d566780ea12a092a') in 0.014249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock06.fbx
+  artifactKey: Guid(dec5b70490e9d6845bf41a7177c43f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock06.fbx using Guid(dec5b70490e9d6845bf41a7177c43f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8424fbca1379fe98cf0137c6257b5c9') in 0.013580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock18.fbx
+  artifactKey: Guid(f421b8354b11b47408aade21d43ac94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock18.fbx using Guid(f421b8354b11b47408aade21d43ac94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c454aa5d2346817119f5d398f2b7db') in 0.018197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock11.fbx
+  artifactKey: Guid(4597a8375c9ad9d40837e34661a2ec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock11.fbx using Guid(4597a8375c9ad9d40837e34661a2ec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc161386ba7279a2e66c2047129b5f1') in 0.013437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock17.fbx
+  artifactKey: Guid(a01a80a87dc0a96409bdba22481eda3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock17.fbx using Guid(a01a80a87dc0a96409bdba22481eda3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eab1c56bebcc6918377fbb95c8bafa5') in 0.012852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Sea Bass.fbx
+  artifactKey: Guid(06ec732b5364d1245b9d49ba2b2eb03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Sea Bass.fbx using Guid(06ec732b5364d1245b9d49ba2b2eb03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26689b0ee0fa6675705167d87c0bec88') in 0.018842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SingleBed_White.fbx
+  artifactKey: Guid(a0d41eb87c8e7b04a8d921a84ceb00f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SingleBed_White.fbx using Guid(a0d41eb87c8e7b04a8d921a84ceb00f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be32b10bf6414e5cce6da589c44776b') in 0.014373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Pufferfish.fbx
+  artifactKey: Guid(ac392dd5c80be7a4f8ce51a2a7b6df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Pufferfish.fbx using Guid(ac392dd5c80be7a4f8ce51a2a7b6df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fa8b0832eb10bf055c0828cca1a90d') in 0.012988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Ship.fbx
+  artifactKey: Guid(5624541c8aeed1943822e5d103b7545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Ship.fbx using Guid(5624541c8aeed1943822e5d103b7545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36a6e3945194c900bd0b45276f5c056') in 0.708241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallGround01.fbx
+  artifactKey: Guid(0edf83d373d7ce54eaf7d79433353171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallGround01.fbx using Guid(0edf83d373d7ce54eaf7d79433353171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0119298a9f50b4a9b7a60c1bad745d44') in 0.016214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock07.fbx
+  artifactKey: Guid(1b3ba53d072028447b3a67f38d8d8f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock07.fbx using Guid(1b3ba53d072028447b3a67f38d8d8f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e768343abc6d80b155f9c22dfb4770c1') in 0.016444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock16.fbx
+  artifactKey: Guid(1b93f0afa345e5d44bcfa349fd1ba784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock16.fbx using Guid(1b93f0afa345e5d44bcfa349fd1ba784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a6f9e3ebd3fad2142ea239fff56dc7') in 0.015601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock12.fbx
+  artifactKey: Guid(a985d67226c7d714fa5efbfbc6ad8b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock12.fbx using Guid(a985d67226c7d714fa5efbfbc6ad8b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266a3f8bb181a9af52aa79dbf04c510f') in 0.013488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock02.fbx
+  artifactKey: Guid(8e3c1d1caaa0e61458bfed7d805dcf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Rock02.fbx using Guid(8e3c1d1caaa0e61458bfed7d805dcf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431b94ecd6b15017f8adf61bbf96c398') in 0.012434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SingleBed_Blue.fbx
+  artifactKey: Guid(a67116ec46744774eaf2ca0525bf0055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SingleBed_Blue.fbx using Guid(a67116ec46744774eaf2ca0525bf0055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59300f6433227393760e8123640dc400') in 0.023365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SingleBed_Green.fbx
+  artifactKey: Guid(592edde63e4404f479effbbbaea42ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SingleBed_Green.fbx using Guid(592edde63e4404f479effbbbaea42ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3531ea10c256eed74f05276270de0cc') in 0.014244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Red Snapper.fbx
+  artifactKey: Guid(3c1002a367857da4eb674ee0550f7b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Red Snapper.fbx using Guid(3c1002a367857da4eb674ee0550f7b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8623f33418d2f68c76561742c64ac4') in 0.033384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SingleBed_Red.fbx
+  artifactKey: Guid(c095d55aaa0cd0444b905c185c0764dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SingleBed_Red.fbx using Guid(c095d55aaa0cd0444b905c185c0764dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d5d583a4a5691ba15075e4d31a2b34') in 0.014792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.086140 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallGround02.fbx
+  artifactKey: Guid(a6b73cdcaa09a5f4aacbd75c1ac5081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallGround02.fbx using Guid(a6b73cdcaa09a5f4aacbd75c1ac5081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43dc36bf7b4f8687fbae57008dd12a3') in 0.016645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain06.fbx
+  artifactKey: Guid(c4ad7a4c80d94f04b9d66fc82eeb91fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain06.fbx using Guid(c4ad7a4c80d94f04b9d66fc82eeb91fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18df8919a417b2980004786e554e3df3') in 0.013871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SquareRug_White.fbx
+  artifactKey: Guid(9fe04d4dc1a49b94b8a4b5c1f875ef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SquareRug_White.fbx using Guid(9fe04d4dc1a49b94b8a4b5c1f875ef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5468f37bbe5d895ad897a0d6e42312da') in 0.014650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain04.fbx
+  artifactKey: Guid(1cd198b224fdea340b1ec7fb741fe83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain04.fbx using Guid(1cd198b224fdea340b1ec7fb741fe83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706126a7fcfdc808a5016211b2f610d1') in 0.013734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Starfish.fbx
+  artifactKey: Guid(882c1fed25c74f84ebae2c9f56074982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Starfish.fbx using Guid(882c1fed25c74f84ebae2c9f56074982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1c41a188c59fd965f6d58b152e632b') in 0.012777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SquareRug_Green.fbx
+  artifactKey: Guid(561b7c3e0a0f29541b40946105a355e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SquareRug_Green.fbx using Guid(561b7c3e0a0f29541b40946105a355e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9440b395e11432cc8dd22dc94a115d19') in 0.013244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SquareRug_Blue.fbx
+  artifactKey: Guid(cac79a3af7ec6fa4a8316fa54e4e16f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SquareRug_Blue.fbx using Guid(cac79a3af7ec6fa4a8316fa54e4e16f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cca74a284339cb103c3142344795ed3') in 0.015500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallGround03.fbx
+  artifactKey: Guid(8e710e4cfdd8b4f4989e688f4da2ec11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallGround03.fbx using Guid(8e710e4cfdd8b4f4989e688f4da2ec11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac66d319c68c85a4638dd6ebe101d5e') in 0.016396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Stone01.fbx
+  artifactKey: Guid(01e9e419a18941c4fb41242f6eeaaab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Stone01.fbx using Guid(01e9e419a18941c4fb41242f6eeaaab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6831ed5e8b59081162c15d4c947afbe1') in 0.015688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain05.fbx
+  artifactKey: Guid(5e188404816fbc64b965e32fd42e4a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain05.fbx using Guid(5e188404816fbc64b965e32fd42e4a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e9d4a992c418ea84d18fec8ae5a492') in 0.014190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain07.fbx
+  artifactKey: Guid(bceabf75ee9f325478792d63b8cb4cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain07.fbx using Guid(bceabf75ee9f325478792d63b8cb4cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1791e44e0a3e86f5d8fc5ac611b1aff8') in 0.013269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Swordfish.fbx
+  artifactKey: Guid(4846497bb804d014780d5f494d8d3f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Swordfish.fbx using Guid(4846497bb804d014780d5f494d8d3f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2536f4eba75730109ebc00e9efffb36d') in 0.013265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Treasure Chest.fbx
+  artifactKey: Guid(2b8655b6e2dbda24583945e406518a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Treasure Chest.fbx using Guid(2b8655b6e2dbda24583945e406518a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65368ebce50b56afdf0a4b166f090a2c') in 0.033937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Yellow Tang.fbx
+  artifactKey: Guid(04a6c857a5539d84ba769daa162fab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Yellow Tang.fbx using Guid(04a6c857a5539d84ba769daa162fab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2a515629bfe4458899668c1ac85b8a') in 0.013638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/TelescopeMount.fbx
+  artifactKey: Guid(981c9fe7eb0450f4997532b00089271e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/TelescopeMount.fbx using Guid(981c9fe7eb0450f4997532b00089271e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6bfecefc95319b7a2f005d94c3b530') in 0.041227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Stone03.fbx
+  artifactKey: Guid(f1a995c2ddbf7b543a4458eb1413fa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Stone03.fbx using Guid(f1a995c2ddbf7b543a4458eb1413fa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd4ea5ab06cb93dfc69526119d93a98') in 0.013193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SunkenShipFront.fbx
+  artifactKey: Guid(dab7644ec548def47b2f9b88a8d3d4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SunkenShipFront.fbx using Guid(dab7644ec548def47b2f9b88a8d3d4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39da4243ab77dc48177755d3caad971c') in 0.061388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain08.fbx
+  artifactKey: Guid(cc818730973998247bc4936f5f64a8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain08.fbx using Guid(cc818730973998247bc4936f5f64a8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c58239de14bb469f4bbd9e0b2eb9e7') in 0.013781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Stone02.fbx
+  artifactKey: Guid(4875b3a7d5a5ca7469c70074881e45f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Stone02.fbx using Guid(4875b3a7d5a5ca7469c70074881e45f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92793f685a55c314b29d63d974d43be') in 0.013298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Stone04.fbx
+  artifactKey: Guid(3c5737590e70cec4faafc3f9eb30e1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Stone04.fbx using Guid(3c5737590e70cec4faafc3f9eb30e1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d007e451a61ced3650f75dcd6ac279') in 0.016164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SunkenShipFront._Collision.fbx
+  artifactKey: Guid(fb6a8639ab50151439237158ee009ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SunkenShipFront._Collision.fbx using Guid(fb6a8639ab50151439237158ee009ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c6d8e38e31b32218dc5299f67ad787') in 0.029824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain03.fbx
+  artifactKey: Guid(fd4e0e86070de5a42b5abcc41dd4ba11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain03.fbx using Guid(fd4e0e86070de5a42b5abcc41dd4ba11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992ceb2a4b07636cfb35d763196a2427') in 0.014321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Stone05.fbx
+  artifactKey: Guid(23505e9ab569f4a4cb24e4c90c31ace6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Stone05.fbx using Guid(23505e9ab569f4a4cb24e4c90c31ace6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5614129ccdaf3550bc43722eba5b7dea') in 0.013635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain02.fbx
+  artifactKey: Guid(9f574e68af881f848ba7f673b0f5fc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain02.fbx using Guid(9f574e68af881f848ba7f673b0f5fc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab076d245659ed5b94836ab00e4a5cf8') in 0.017068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SquareRug_Red.fbx
+  artifactKey: Guid(3c8ce2f4d1d7dfc44980d86d5af4aeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SquareRug_Red.fbx using Guid(3c8ce2f4d1d7dfc44980d86d5af4aeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d0a565b3920676b2487e5ce3737968') in 0.013108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain01.fbx
+  artifactKey: Guid(8180d3342706ec74481241f62501bbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/SmallTerrain01.fbx using Guid(8180d3342706ec74481241f62501bbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24a7b7fba8048b2bd1b69fcf24d8104') in 0.013505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ventuar/UnderwaterPack/PackAssets/Models/Stone06.fbx
+  artifactKey: Guid(269f765f5f687df41a569be5121a5a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/UnderwaterPack/PackAssets/Models/Stone06.fbx using Guid(269f765f5f687df41a569be5121a5a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c232b1e533ed08566af4abdf6f205b41') in 0.012872 seconds 
