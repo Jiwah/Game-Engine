@@ -14,7 +14,7 @@ namespace LowPolyUnderwaterPack
         
         public enum SwimType
         {
-            Bobbing, Straight
+            Bobbing, Straight, Dead
         }
 
         // Determines whether the fish will swim in a straight line or bob up and down.
@@ -131,6 +131,10 @@ namespace LowPolyUnderwaterPack
                     float f = bobHeight * Mathf.Cos(bobSpeed * Mathf.PI * Time.timeSinceLevelLoad) / 10;
                     transform.eulerAngles += new Vector3(f, 0, 0);
                 }
+            }
+            if (swimType == SwimType.Dead)
+            {
+                transform.position += Vector3.zero;
             }
 
             transform.position += velocity * Time.deltaTime;
