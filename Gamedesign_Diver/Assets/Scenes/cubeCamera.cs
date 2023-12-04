@@ -14,7 +14,7 @@ public class cubeCamera : MonoBehaviour
         // 카메라의 회전 각도 계산
         float desiredRotationAngle = target.eulerAngles.y;
         Quaternion rotation = Quaternion.Euler(0, desiredRotationAngle, 0);
-
+        
         // 카메라의 위치 계산
         Vector3 desiredPosition = target.position - (rotation * Vector3.forward * distance);
         desiredPosition.y = target.position.y + height;
